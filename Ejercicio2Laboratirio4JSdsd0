@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="caja" onchange=""><br>
+
+    <input type="button" onclick="clickBoton()" value="ROJO">
+    <input type="button" onclick="clickBoton()" value="VERDE">
+    <input type="button" onclick="clickBoton()" value="NEGRO">
+    <input type="button" onclick="clickBoton()" value="ROSA">
+    <input type="button" onclick="clickBoton()" value="AZUL">
+   
+
+    <script>
+        function clickBoton(){
+            var color == document.getElementById("button")
+            caja.innerHTML == color
+        }
+    </script>
+
+</body>
+</html>
